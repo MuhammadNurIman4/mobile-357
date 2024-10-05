@@ -1,0 +1,30 @@
+name: medicineapp
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  image_picker: ^0.8.4+3fl
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/medicine_bottles.png
+    - assets/nutrition.png
+    - assets/ayurveda.png
+    - assets/vitamin.png
+
+  uses-material-design: true
